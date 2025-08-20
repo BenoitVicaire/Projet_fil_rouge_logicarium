@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Cinzel decorative";
+  src: url("../fonts/Cinzel_Decorative/CinzelDecorative-Regular.woff2") format("woff2"), url("../fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Medieval sharp";
+  src: url(../fonts/MedievalSharp/MedievalSharp-Regular.ttf);
+}
+:root {
+  --font_title_primary: Cinzel decorative, sans-serif;
+  --font_subtitle_primary: Medieval sharp, sans-serif;
+  --font_text_primary: Roboto, sans-serif;
+  --size_title_primary: 24px;
+  --size_subtitle_primary: 18px;
+  --size_text_primary: 14px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: "Cinzel decorative", sans-serif;
+  font-size: 24px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Medieval sharp", sans-serif;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+header .header__top {
+  display: flex;
+  flex-direction: row;
+}
+header .header__top .header__profil {
+  display: flex;
+  flex-direction: row;
+}
+header .header__top .header__profil .header__profil__avatar {
+  display: flex;
+  flex-direction: column;
+}
+header .header__top .header__profil .header__profil__avatar .header__profil__avatar__cadre {
+  height: 76px;
+  width: 100px;
+  overflow: hidden;
+}
+header .header__top .header__profil .header__profil__avatar .header__profil__avatar__cadre img {
+  width: 100%;
+  height: 100%;
+}
+header .header__top .header__profil .header__profil__options {
+  display: flex;
+  flex-direction: column;
+}
+header .header__top .header__logo img {
+  height: 120px;
+  width: 200px;
+}
+header .header__top .header__accessibility {
+  display: flex;
+  flex-direction: column;
+}
+header .header__top .header__accessibility .header_accessibility__language {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */
