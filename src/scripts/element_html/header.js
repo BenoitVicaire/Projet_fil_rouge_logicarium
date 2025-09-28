@@ -33,8 +33,8 @@ class Main_header extends HTMLElement {
                     <div class="langue">
                         <span id="language">Langue</span>
                         <div class="flags">
-                            <button class="fi fi-gb active" id="flag_gb"></button>
-                            <button class="fi fi-fr" id="flag_fr"></button>
+                            <button class="fi fi-gb active" id="flag_gb" aria-label="English"></button>
+                            <button class="fi fi-fr" id="flag_fr"aria-label="French"></button>
                         </div>
                     </div>
                 </div>
