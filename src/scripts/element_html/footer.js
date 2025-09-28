@@ -1,3 +1,4 @@
+// Element custom, remplace dans le HTML <main-footer> par ce bloc de code
 class Main_footer extends HTMLElement {
     connectedCallback(){
     this.innerHTML = `

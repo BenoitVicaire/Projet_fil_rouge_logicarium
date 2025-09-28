@@ -1,3 +1,4 @@
+// Dictionaire traduction
 export const texts = {
   fr: {
     login: "Se connecter",

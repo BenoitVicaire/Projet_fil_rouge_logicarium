@@ -4,21 +4,21 @@ const closeBtn = modal.querySelector(".close");
 const profilePic = document.getElementById("profil_pic");
 const avatarOptions = document.querySelectorAll(".avatar_option");
 
-// Ouvrir
+// Ouvrir la modale
 switchBtn.addEventListener("click", () => {
     modal.style.display = "block";
 });
-// Fermer
+// Fermer la modale a la croix
 closeBtn.addEventListener("click", () => {
     modal.style.display = "none";
 });
-
+// Fermer la modale au clic en dehors du cadre
 window.addEventListener("click", (e) => {
     if (!modal.contains(e.target) && e.target !== switchBtn) {
         modal.style.display = "none";
     }
 });
-
+// changer d'avatar
 avatarOptions.forEach(avatar => {
     avatar.addEventListener("click", () => {
         profilePic.src = avatar.src;
